@@ -36,7 +36,7 @@ class CustomData:
                  age:float,
                  sex:str,
                  bmi:float,
-                 children:str,
+                 children:float,
                  smoker:str,
                  region:str):
         
@@ -56,6 +56,7 @@ class CustomData:
                     'age':[self.age],
                     'sex':[self.sex],
                     'bmi':[self.bmi],
+                    'children':[self.children],
                     'smoker':[self.smoker],
                     'region':[self.region]
                 }
