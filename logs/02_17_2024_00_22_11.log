@@ -1,6 +1,0 @@
-[2024-02-17 00:22:12,420] 24 root - INFO - data ingestion started
-[2024-02-17 00:22:12,428] 28 root - INFO -  i have read dataset as a df
-[2024-02-17 00:22:12,449] 33 root - INFO -  i have saved the raw dataset in artifact folder
-[2024-02-17 00:22:12,449] 35 root - INFO - here i have performed train test split
-[2024-02-17 00:22:12,450] 38 root - INFO - train test split completed
-[2024-02-17 00:22:12,461] 43 root - INFO - data ingestion part completed
