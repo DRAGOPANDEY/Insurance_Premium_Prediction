@@ -1,5 +1,5 @@
 env
-raw.csv
-test.csv
-train.csv
+artifacts/raw.csv
+artifacts/test.csv
+artifacts/train.csv
 
