@@ -1,8 +1,3 @@
-name: Build and push image to ECR
-on:
-  push:
-    brnaches:
-      - main
 # when ever you are pusing anything to the main branches so you need to the run  this workflow 
 
 name: Build and push image to ECR
