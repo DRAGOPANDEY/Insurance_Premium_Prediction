@@ -4,7 +4,7 @@ from src.InsurancePremiumPrediction.components.data_transformation import DataTr
 
 from src.InsurancePremiumPrediction.components.model_trainer import ModelTrainer
 
-# from src.InsurancePremiumPrediction.components.model_evaluation import ModelEvaluation
+from src.InsurancePremiumPrediction.components.model_evaluation import ModelEvaluation
 
 
 
@@ -68,5 +68,5 @@ model_trainer_obj.initate_model_training(train_arr,test_arr)
 
 
 
-# model_eval_obj = ModelEvaluation()
-# model_eval_obj.initiate_model_evaluation(train_arr,test_arr)
+model_eval_obj = ModelEvaluation()
+model_eval_obj.initiate_model_evaluation(train_arr,test_arr)

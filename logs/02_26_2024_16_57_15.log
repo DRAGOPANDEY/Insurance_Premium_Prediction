@@ -1,0 +1,27 @@
+[2024-02-26 16:57:17,733] 24 root - INFO - data ingestion started
+[2024-02-26 16:57:17,742] 28 root - INFO -  i have read dataset as a df
+[2024-02-26 16:57:17,748] 33 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-02-26 16:57:17,749] 35 root - INFO - here i have performed train test split
+[2024-02-26 16:57:17,751] 38 root - INFO - train test split completed
+[2024-02-26 16:57:17,759] 43 root - INFO - data ingestion part completed
+[2024-02-26 16:57:17,780] 91 root - INFO - read train and test data complete
+[2024-02-26 16:57:17,783] 92 root - INFO - Train Dataframe Head : 
+   age     sex   bmi  children smoker     region  expenses
+0   34  female  38.0         3     no  southwest   6196.45
+1   55  female  40.8         3     no  southeast  12485.80
+2   49  female  34.8         1     no  northwest   9583.89
+3   34  female  19.0         3     no  northeast   6753.04
+4   24    male  31.1         0    yes  northeast  34254.05
+[2024-02-26 16:57:17,786] 93 root - INFO - Test Dataframe Head : 
+   age     sex   bmi  children smoker     region  expenses
+0   33  female  18.5         1     no  southwest   4766.02
+1   53  female  26.7         2     no  southwest  11150.78
+2   31    male  34.4         3    yes  northwest  38746.36
+3   39    male  26.2         1     no  northwest   6123.57
+4   40    male  41.7         0     no  southeast   5438.75
+[2024-02-26 16:57:17,786] 34 root - INFO - Data Transformation initiated
+[2024-02-26 16:57:17,809] 111 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-02-26 16:57:17,809] 121 root - INFO - preprocessing pickle file saved
+[2024-02-26 16:57:17,809] 26 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-02-26 16:57:18,514] 44 root - INFO - Model Report : {'LinearRegression': 0.7792578930623546, 'DT': 0.8708230007090613, 'RandonForest': 0.8631929625346724, 'GradientB': 0.8718334820877801}
+[2024-02-26 16:57:18,514] 57 root - INFO - Best Model Found , Model Name : GradientB , R2 Score : 0.8718334820877801

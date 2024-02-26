@@ -1,0 +1,27 @@
+[2024-02-26 16:38:43,054] 24 root - INFO - data ingestion started
+[2024-02-26 16:38:43,059] 28 root - INFO -  i have read dataset as a df
+[2024-02-26 16:38:43,065] 33 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-02-26 16:38:43,065] 35 root - INFO - here i have performed train test split
+[2024-02-26 16:38:43,066] 38 root - INFO - train test split completed
+[2024-02-26 16:38:43,074] 43 root - INFO - data ingestion part completed
+[2024-02-26 16:38:43,094] 91 root - INFO - read train and test data complete
+[2024-02-26 16:38:43,098] 92 root - INFO - Train Dataframe Head : 
+   age   sex   bmi  children smoker     region  expenses
+0   52  male  32.2         3     no  northeast  11488.32
+1   42  male  26.3         1     no  northwest   6940.91
+2   19  male  37.0         0    yes  northwest  36219.41
+3   53  male  24.3         0     no  northwest   9863.47
+4   39  male  21.9         1     no  northwest   6117.49
+[2024-02-26 16:38:43,107] 93 root - INFO - Test Dataframe Head : 
+   age     sex   bmi  children smoker     region  expenses
+0   56    male  20.0         0    yes  northeast  22412.65
+1   24    male  23.4         0     no  southwest   1969.61
+2   31  female  31.1         0     no  northeast   4347.02
+3   40  female  25.5         1     no  northeast   7077.19
+4   46    male  39.4         1     no  northeast   8342.91
+[2024-02-26 16:38:43,107] 34 root - INFO - Data Transformation initiated
+[2024-02-26 16:38:43,124] 111 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-02-26 16:38:43,125] 121 root - INFO - preprocessing pickle file saved
+[2024-02-26 16:38:43,125] 26 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-02-26 16:38:43,753] 44 root - INFO - Model Report : {'LinearRegression': 0.7204944172883079, 'DT': 0.8151068030957281, 'RandonForest': 0.8087650017020127, 'GradientB': 0.8293984867903491}
+[2024-02-26 16:38:43,753] 57 root - INFO - Best Model Found , Model Name : GradientB , R2 Score : 0.8293984867903491

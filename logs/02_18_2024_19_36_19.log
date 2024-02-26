@@ -1,7 +1,0 @@
-[2024-02-18 19:36:21,543] 96 werkzeug - WARNING -  * Debugger is active!
-[2024-02-18 19:36:21,548] 96 werkzeug - INFO -  * Debugger PIN: 910-930-794
-[2024-02-18 19:36:28,750] 96 werkzeug - INFO - 192.168.1.39 - - [18/Feb/2024 19:36:28] "GET / HTTP/1.1" 200 -
-[2024-02-18 19:36:31,174] 96 werkzeug - INFO - 192.168.1.39 - - [18/Feb/2024 19:36:31] "GET /predict HTTP/1.1" 200 -
-[2024-02-18 19:36:32,172] 96 werkzeug - INFO - 192.168.1.39 - - [18/Feb/2024 19:36:32] "GET /predict HTTP/1.1" 200 -
-[2024-02-18 19:36:39,344] 64 root - INFO - Dataframe Gathered
-[2024-02-18 19:36:39,572] 96 werkzeug - INFO - 192.168.1.39 - - [18/Feb/2024 19:36:39] "POST /predict HTTP/1.1" 200 -
