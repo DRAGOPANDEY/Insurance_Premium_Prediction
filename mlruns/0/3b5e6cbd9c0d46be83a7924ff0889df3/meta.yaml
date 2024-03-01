@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/3b5e6cbd9c0d46be83a7924ff0889df3/artifacts
+end_time: 1709208137497
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3b5e6cbd9c0d46be83a7924ff0889df3
+run_name: vaunted-fox-813
+run_uuid: 3b5e6cbd9c0d46be83a7924ff0889df3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709208137414
+status: 4
+tags: []
+user_id: '91844'

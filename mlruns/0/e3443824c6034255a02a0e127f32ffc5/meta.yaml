@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/e3443824c6034255a02a0e127f32ffc5/artifacts
+end_time: 1709208286345
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e3443824c6034255a02a0e127f32ffc5
+run_name: handsome-horse-64
+run_uuid: e3443824c6034255a02a0e127f32ffc5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709208280924
+status: 4
+tags: []
+user_id: '91844'

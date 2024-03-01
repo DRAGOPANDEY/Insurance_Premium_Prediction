@@ -1,0 +1,27 @@
+[2024-03-01 14:14:34,496] 24 root - INFO - data ingestion started
+[2024-03-01 14:14:34,504] 28 root - INFO -  i have read dataset as a df
+[2024-03-01 14:14:34,512] 33 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-03-01 14:14:34,512] 35 root - INFO - here i have performed train test split
+[2024-03-01 14:14:34,512] 38 root - INFO - train test split completed
+[2024-03-01 14:14:34,522] 43 root - INFO - data ingestion part completed
+[2024-03-01 14:14:34,544] 91 root - INFO - read train and test data complete
+[2024-03-01 14:14:34,550] 92 root - INFO - Train Dataframe Head : 
+   age     sex   bmi  children smoker     region  expenses
+0   29  female  24.6         2     no  southwest   4529.48
+1   37    male  28.0         2     no  northwest   6203.90
+2   26    male  23.7         2     no  southwest   3484.33
+3   47    male  28.2         3    yes  northwest  24915.22
+4   55  female  27.0         0     no  northwest  11082.58
+[2024-03-01 14:14:34,560] 93 root - INFO - Test Dataframe Head : 
+   age     sex   bmi  children smoker     region  expenses
+0   40  female  27.4         1     no  southwest   6496.89
+1   54  female  28.9         2     no  northeast  12096.65
+2   21    male  22.3         1     no  southwest   2103.08
+3   22    male  31.4         1     no  northwest   2643.27
+4   26  female  40.2         0     no  northwest   3201.25
+[2024-03-01 14:14:34,561] 34 root - INFO - Data Transformation initiated
+[2024-03-01 14:14:34,582] 111 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-03-01 14:14:34,583] 121 root - INFO - preprocessing pickle file saved
+[2024-03-01 14:14:34,583] 26 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-03-01 14:14:35,334] 44 root - INFO - Model Report : {'LinearRegression': 0.7459994790660713, 'DT': 0.8507968953094979, 'RandonForest': 0.847477580834594, 'GradientB': 0.8476749282285541}
+[2024-03-01 14:14:35,334] 57 root - INFO - Best Model Found , Model Name : DT , R2 Score : 0.8507968953094979

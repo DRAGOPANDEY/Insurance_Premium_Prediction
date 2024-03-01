@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/51df609b513a4e50a06bac7809ad81ef/artifacts
+end_time: 1709209033303
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 51df609b513a4e50a06bac7809ad81ef
+run_name: stylish-gnat-891
+run_uuid: 51df609b513a4e50a06bac7809ad81ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709209029605
+status: 4
+tags: []
+user_id: '91844'

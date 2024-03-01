@@ -1,0 +1,27 @@
+[2024-03-01 14:11:42,649] 24 root - INFO - data ingestion started
+[2024-03-01 14:11:42,658] 28 root - INFO -  i have read dataset as a df
+[2024-03-01 14:11:42,670] 33 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-03-01 14:11:42,670] 35 root - INFO - here i have performed train test split
+[2024-03-01 14:11:42,672] 38 root - INFO - train test split completed
+[2024-03-01 14:11:42,685] 43 root - INFO - data ingestion part completed
+[2024-03-01 14:11:42,720] 91 root - INFO - read train and test data complete
+[2024-03-01 14:11:42,724] 92 root - INFO - Train Dataframe Head : 
+   age     sex   bmi  children smoker     region  expenses
+0   59  female  26.5         0     no  northeast  12815.44
+1   23  female  23.2         2     no  northwest  14426.07
+2   19  female  35.2         0     no  northwest   2134.90
+3   44    male  25.4         1     no  northwest   7518.03
+4   51  female  34.1         0     no  southeast   9283.56
+[2024-03-01 14:11:42,729] 93 root - INFO - Test Dataframe Head : 
+   age   sex   bmi  children smoker     region  expenses
+0   59  male  28.8         0     no  northwest  12129.61
+1   54  male  30.0         0     no  northwest  24476.48
+2   23  male  32.7         3     no  southwest   3591.48
+3   53  male  20.9         0    yes  southeast  21195.82
+4   25  male  33.7         4     no  southeast   4504.66
+[2024-03-01 14:11:42,729] 34 root - INFO - Data Transformation initiated
+[2024-03-01 14:11:42,757] 111 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-03-01 14:11:42,760] 121 root - INFO - preprocessing pickle file saved
+[2024-03-01 14:11:42,760] 26 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-03-01 14:11:43,768] 44 root - INFO - Model Report : {'LinearRegression': 0.7447953451908106, 'DT': 0.8444244090290931, 'RandonForest': 0.831224832766333, 'GradientB': 0.8483315055101471}
+[2024-03-01 14:11:43,768] 57 root - INFO - Best Model Found , Model Name : GradientB , R2 Score : 0.8483315055101471

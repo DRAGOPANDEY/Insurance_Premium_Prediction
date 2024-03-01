@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/68df4e1cb0e94798a3e781fdfc1959ba/artifacts
+end_time: 1709209798077
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 68df4e1cb0e94798a3e781fdfc1959ba
+run_name: valuable-crane-867
+run_uuid: 68df4e1cb0e94798a3e781fdfc1959ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709209793823
+status: 4
+tags: []
+user_id: '91844'

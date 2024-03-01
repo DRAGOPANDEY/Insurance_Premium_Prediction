@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/1102f33d8f6b4c33866c50ae58aed17e/artifacts
+end_time: 1709208113940
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1102f33d8f6b4c33866c50ae58aed17e
+run_name: adventurous-cat-726
+run_uuid: 1102f33d8f6b4c33866c50ae58aed17e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709208106902
+status: 4
+tags: []
+user_id: '91844'
