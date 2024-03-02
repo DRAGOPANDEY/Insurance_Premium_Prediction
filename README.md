@@ -15,7 +15,7 @@ MLFLOW_TRACKING_PASSWORD=c3745b5a8c06e72763498715f87126a7f19d8e7f \
 python script.py
 
 Insurance Premium Prediction -->
-<h1 align="center">Insurance Premium Prediction</h1>
+<h1 align="center">Insurance Premium Price Prediction</h1>
 
 <div align= "center">
   <h4>Insurance Premium Prediction</h4><br>
