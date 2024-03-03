@@ -35,11 +35,11 @@ Insurance Premium Prediction -->
 <br>
 
 
-## UI of Application:-
+
 
 <br>
 
-Application URL Links : [InsurancePremiumPredictor](https://ambarish-224-insurance-prediction-project.streamlit.app/)
+Application URL Links : [InsurancePremiumPredictor](https://gutfrbn3im.us-east-1.awsapprunner.com/)
 
 <br>
 
