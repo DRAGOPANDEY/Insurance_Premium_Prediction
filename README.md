@@ -73,9 +73,9 @@ This project is created with below technologies/tools/resources:
 
 ## Software and account Requirement
 1. [Github Account](https://github.com/DRAGOPANDEY/Insurance_Premium_Prediction?tab=readme-ov-file#about-project)
-2. [AWS](https://streamlit.io/cloud)
+2. [AWS](https://aws.amazon.com/console/)
 3. [VS Code IDE](https://code.visualstudio.com/download)
-4. [GIT CLI](https://git-scm.com/downloads)
+4. 
 
 <br>
 
