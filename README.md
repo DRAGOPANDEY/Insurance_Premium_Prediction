@@ -36,7 +36,6 @@ Insurance Premium Prediction -->
 
 
 
-
 <br>
 
 Application URL Links : [InsurancePremiumPredictor](https://gutfrbn3im.us-east-1.awsapprunner.com/)
